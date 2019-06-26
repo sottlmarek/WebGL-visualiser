@@ -1,0 +1,360 @@
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: white;
+	color: black;
+	font: 11px verdana;
+	min-height: 680px;
+}
+.left_form {
+	margin-top: 55px;
+	width: 30%;
+	margin-left: 20%;
+	position: absolute;
+}
+
+.small {
+box-shadow: 0px 0px 0px #888;
+padding: 0px;
+}
+
+
+
+.transparent {
+background-color: transparent;
+}
+#green {
+color: green;
+}
+
+#red {
+color: red;
+}
+
+
+#imagebox, form {
+	box-shadow: 5px 5px 5px #888;
+}
+#imagebox, canvas, #manipulator {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#counter {
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 740px;
+	z-Index: 10;
+}
+
+#tweet {
+	position: relative;
+	margin-top: -15px;
+	margin-left: 600px;
+}
+
+#who{
+ 	position: ablsolute;
+	margin-top: -20px;
+	margin-left: 10px;
+
+}
+
+#fb-like{
+ 	position: ablsolute;
+	margin-top: 465px;
+	margin-left: 400px;
+
+}
+
+
+
+
+
+
+#user{
+  margin-left: 130px;
+  position: absolute;
+	margin-top: -80px; 
+  font-weight:bold; 
+	z-index: 6;
+}
+#imagebox {
+	position: relative;
+	width: 200px;
+	height: 120px;
+	margin: 2%;
+	background-color: #E0E0E0;
+	border: 3px solid #E0E0E0;
+	z-index: 6;
+}
+#right_panel {
+	position: absolute;
+	right: 10px;
+  max-width:260px;
+	margin-left: 78%;
+	margin-top: 4px;
+	height: 500px;
+	background-color: #eaeaea;
+	float: right;
+}
+#tabs-2, #tabs-1, #tabs-3 {
+	overflow: auto;
+	padding: 5px;
+  padding-right: -20px;
+	height: 700px;
+  width:240px;
+}
+#submit_button {
+	background-color: transparent;
+	height: 25px;
+	width: 25px;
+	padding: -3px;
+}
+.button {
+	width: 40px;
+	height: 40px;
+}
+#right_panel_nobg {
+	background-color: white;
+	position: absolute;
+	padding: 5%;
+	right: 5px;
+	margin-left: 75%;
+	min-width: 200px;
+	margin-top: 0px;
+	min-height: 400px;
+}
+iframe {
+	border: 0px;
+	background-color: transparent;
+}
+#welcome {
+	padding-top: 55px;
+	padding-left: 3px;
+	background-image: url("images/welcome.jpg");
+	width: 50%;
+	height: 60%;
+}
+select {
+	width: 100%;
+}
+form {
+	padding: 5px;
+	background-color: #E0E0E0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 3px solid #E0E0E0;
+}
+form.login, form.register {
+	background-color: #E0E0E0;
+	padding: 10px
+}
+input {
+	background-color: white;
+	border-radius: 8px;
+	moz-border-radius: 8px;
+	webkit-border-radius: 8px;
+	border-width: 0px;
+	border: 3px solid #E0E0E0;
+}
+#footer {
+	margin-top: 65%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	width: 80%;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	background-color: transparent;
+	padding: 5px;
+}
+#navigation {
+	margin-top: 0px;
+	background: url("./images/nav_bg.png") 0 0 repeat;
+	height: 50px;
+	min-width: 100%;
+	padding-left: auto;
+	padding-right: auto;
+}
+.logo {
+	width: 130px;
+	height: 130px;
+	margin-top: -22px;
+	z-Index: 3;
+	position: relative;
+}
+#menu {
+	margin-left: 70%;
+	margin-top: -107px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+#menu {
+	height: 200px;
+}
+hr {
+	width: 150px;
+}
+#filterlist {
+	width: 190px;
+	height: 380px;
+	overflow: auto;
+}
+#filter {
+	padding-top: 10px;
+	padding-left: 10px;
+	left: 755px;
+	top: 55px;
+	position: absolute;
+	background-size: 100%;
+	z-index: 30;
+	height: 440px;
+	width: 190px;
+	background-color: transparent;
+	background-color: #eaeaea;
+	border-radius: 10px;
+}
+#container {
+	width: 750px;
+	height: 450px;
+}
+#welcome {
+	width: 750px;
+	height: 530px;
+}
+#container, #welcome {
+	position: absolute;
+	margin-top: 2px;
+	padding-right: 1px;
+	z-Index: 2;
+}
+#manipulator {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	position: relative;
+	left: 20px;
+	top: -410px;
+	height: auto;
+	width: 60px;
+	background-color: transparent;
+	border: 3px solid #627AAD;
+}
+img {
+	border: 0;
+}
+img.pic {
+	height: 30px;
+	width: 100px;
+}
+img.mode {
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 0;
+	width: 40px;
+	height: 40px;
+}
+canvas {
+	border: 3px solid gray;
+	padding-bottom: 1px;
+	z-index: 0;
+	width: 100%;
+}
+#help_content {
+	//background: url("./images/help_bg.png") 0 0 no-repeat;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 20px;
+}
+#webGL_error {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 50px;
+	background: url("./images/webGL_Error.png") 0 0 no-repeat;
+	width: 400px;
+	height: 400px;
+	left: 300px;
+	top: 55px;
+}
+#infopanel {
+	left: 5px;
+	margin-top: 20px;
+	width: 940px;
+	position: absolute;
+}
+#footer.index {
+	margin-top: 590px;
+}
+
+
+#footer.model {
+	margin-top: 450px;
+}
+/* z jquery.com vzorový příklad*/
+.ui-autocomplete {
+	max-height: 100px;
+	overflow: auto;
+	border: 2px solid #E0E0E0;
+	border-radius: 10px;
+/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+/* IE 6 doesn't support max-height * we use height instead, but this forces the menu to always be this tall */
+* html .ui-autocomplete {
+	height: 100px;
+}
+/*konec příkladu*/
+#no_shadow {
+	box-shadow: 0px 0px 0px #888;
+	background-color: white;
+	border: 0px;
+}
+.right_submit {
+	margin-left: 80%;
+}
+textarea {
+	max-height: 50%;
+}
+.bio {
+	border: 0px;
+}
+
+table.summary{
+margin-top : 20px;
+margin-left: 20%;
+width: 50%;
+border-style: solid solid solid solid;
+border-color: gray;
+border-width: 1px;
+border-collapse: collapse;
+
+}
+
+tr.header
+{
+  border-style: solid solid solid solid;
+  border-color: gray;
+  border-width: 1px;
+  padding-left: 10px;
+  background-color:#D8D8D8;
+  height: 25px;
+}
+
+tr.row
+{
+  border-style: solid none solid none;
+  border-color: gray;
+  border-width: 1px;
+  padding-left: 10px;
+  background-color: #eaeaea;
+  height: 20px;
+}

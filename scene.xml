@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<glge>
+  
+  
+  	<mesh id="xline">
+			<positions>
+			-1000.0,0,0,
+			1000.0,0,0
+			</positions>
+		</mesh>
+		
+    <mesh id="yline">
+			<positions>
+			0,-1000,0,
+			0,1000,0
+			</positions>
+		</mesh>
+		
+    <mesh id="zline">
+			<positions>
+			0,0,-1000,
+			0,0,1000
+			</positions>
+		</mesh>
+		
+		
+		<material id="red" specular="0" color="#f00" shadeless="1" />
+		<material id="green" specular="0" color="#0f0" shadeless="1" />
+		<material id="blue" specular="0" color="#00f" shadeless="1" />
+		<material id="lines" specular="0" color="#777" shadeless="1" />
+
+
+	<camera id="maincamera" loc_y="50" loc_x="0" loc_z="10" rot_order="ROT_XZY" xtype="C_ORTHO" rot_z="0" rot_x="1.56" rot_y="3.141" />
+
+	<scene id="mainscene" camera="#maincamera" ambient_color="#000" fog_type="FOG_NONE"> 
+		
+    		<group id="graph">
+				<object id="xaxis" draw_type="DRAW_LINES" line_width="2" mesh="#xline" material="#red"  />
+				<object id="yaxis" draw_type="DRAW_LINES" line_width="2" mesh="#yline" material="#green"  />
+				<object id="zaxis" draw_type="DRAW_LINES" line_width="2" mesh="#zline" material="#blue"  />
+			</group>
+    
+
+
+		
+		<light id="mainlight" loc_x="-20" loc_y="15" loc_z="25" rot_x="3.3"  attenuation_constant="0.5" type="L_POINT" />
+		<light id="mainlight2" loc_x="20" loc_y="-15" loc_z="25" rot_x="3.3"  attenuation_constant="0.5" type="L_POINT" />
+		<light id="mainlight3" loc_x="20" loc_y="15" loc_z="25" rot_x="-3.3"  attenuation_constant="0.5" type="L_POINT" />
+    <light id="mainlight4" loc_x="-10" loc_y="-15" loc_z="35" rot_x="3.3"  attenuation_constant="0.5" type="L_POINT" />
+
+	</scene>
+
+</glge>
